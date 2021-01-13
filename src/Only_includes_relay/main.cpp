@@ -5,10 +5,10 @@ Bus Buddies. code for triggering the relay by sending a message in serial monito
 motion sensor.
 */
 //Celebratory code
-const int RELAY_PIN = 9;
+const int RELAY_PIN = 10;
 const int BAUD_RATE = 9600;
 //How long to trigger sensor, in MILLISECONDS
-const int triggerDuration = 10000;
+const int triggerDuration = 15000;
 //what user types to trigger light
 const char motionInput = 'M';
 //starts off not detecting motion
